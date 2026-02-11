@@ -1,15 +1,6 @@
-# The Network Simulator, Version 3
-
-[![codecov](https://codecov.io/gh/nsnam/ns-3-dev-git/branch/master/graph/badge.svg)](https://codecov.io/gh/nsnam/ns-3-dev-git/branch/master/)
-[![Gitlab CI](https://gitlab.com/nsnam/ns-3-dev/badges/master/pipeline.svg)](https://gitlab.com/nsnam/ns-3-dev/-/pipelines)
-[![Github CI](https://github.com/nsnam/ns-3-dev-git/actions/workflows/per_commit.yml/badge.svg)](https://github.com/nsnam/ns-3-dev-git/actions)
-
-[![Latest Release](https://gitlab.com/nsnam/ns-3-dev/-/badges/release.svg)](https://gitlab.com/nsnam/ns-3-dev/-/releases)
-
-## License
-
-This software is licensed under the terms of the GNU General Public License v2.0 only (GPL-2.0-only).
-See the LICENSE file for more details.
+# Research program that simulated FANET network 
+# Researcher : Muhammad Rangga Ridjali
+# mentor : Lisa Kristiana
 
 ## Table of Contents
 
