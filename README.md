@@ -10,7 +10,7 @@ Mentor : Lisa Kristiana
 * [Building ns-3](#building-ns-3)
 * [Testing ns-3](#testing-ns-3)
 * [Running ns-3](#running-ns-3)
-* [ns-3 Documentation](#ns-3-documentation)
+* [Building NetAnim](#building-netanim)
 
 > **NOTE**: Much more substantial information about ns-3 can be found at
 <https://www.nsnam.org>
@@ -194,7 +194,7 @@ for what C++ APIs are supported or not from Python do not currently exist.
 The project is looking for additional Python maintainers to improve
 the support for future Python users.
 
-## NetAnim Documentation
+## Building NetAnim
 
 NetAnim Simulation
 <img width="1365" height="767" alt="hasil_simulasi_netanim" src="https://github.com/user-attachments/assets/dda40b70-1f02-4dcc-907e-5f68a8c20585" />
