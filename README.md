@@ -194,26 +194,13 @@ for what C++ APIs are supported or not from Python do not currently exist.
 The project is looking for additional Python maintainers to improve
 the support for future Python users.
 
-## ns-3 Documentation
+## NetAnim Documentation
 
 NetAnim Simulation
 <img width="1365" height="767" alt="hasil_simulasi_netanim" src="https://github.com/user-attachments/assets/dda40b70-1f02-4dcc-907e-5f68a8c20585" />
 
-Once you have verified that your build of ns-3 works by running
-the `simple-global-routing` example as outlined in the [running ns-3](#running-ns-3)
-section, it is quite likely that you will want to get started on reading
-some ns-3 documentation.
+## Install Qt Dependency
 
-All of that documentation should always be available from
-the ns-3 website: <https://www.nsnam.org/documentation/>.
-
-This documentation includes:
-
-* a tutorial
-* a reference manual
-* models in the ns-3 model library
-* a wiki for user-contributed tips: <https://www.nsnam.org/wiki/>
-* API documentation generated using doxygen: this is
-  a reference manual, most likely not very well suited
-  as introductory text:
-  <https://www.nsnam.org/doxygen/index.html>
+```bash
+sudo apt update
+sudo apt install qt5-default qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools -y
