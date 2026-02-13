@@ -204,3 +204,44 @@ NetAnim Simulation
 ```bash
 sudo apt update
 sudo apt install qt5-default qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools -y
+```
+
+## Compile NetAnim
+
+```
+cd ~/ns-3-allinone/netanim
+qmake NetAnim.pro
+make
+ls
+```
+
+Pastikan terdapat file: 
+NetAnim
+
+## Masuk ke Folder ns-3
+
+```
+cd ~/ns-3-dev
+```
+
+## Build ns-3 (Jika Pertama Kali)
+
+```
+./ns3 configure
+./ns3 build
+```
+
+## Jalankan Simulasi ns-3
+
+```
+./ns3 run scratch/my-simulation
+```
+
+## Jalankan NetAnim
+
+```masuk ke folder netanim
+cd ~/ns-3-allinone/netanim
+```
+
+```Jalankan Netanim
+./NetAnim
