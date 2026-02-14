@@ -14,7 +14,7 @@ Mentor : Lisa Kristiana
   <tr>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/28a50ebe-3c78-4f10-b72a-b66c007d4549" width="280"/><br>
-      <em>Gambar 1. Topologi awal jaringan FANET dengan 100 UAV.</em>
+      <em>1 Raspberry Pi 4 model B + 1 Power supply + 1 USB type-C</em>
     </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/537a22b5-c05e-4ab7-9949-edcf85df1694" width="280"/><br>
