@@ -1,28 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Raspberry Pi - AODV only (tanpa PSO-GA) + logging metrik AODV (RSSI, PDR, End-to-End Delay)
-ke database statistik_jaringan (tabel baru khusus AODV).
-
-KOMPATIBILITAS PROTOKOL (mengikuti program lama):
-- UDP broadcast dengan header: [pkt_type:1][src_mac:6][dst_mac:6][ttl:1] + payload JSON utf-8
-- Port: 5000
-- Packet types:
-  PKT_HELLO=0, PKT_RREQ=1, PKT_RREP=2, PKT_DATA=3, PKT_RERR=4, PKT_ACK=7
-- Payload DATA memuat: packet_id (int), source, destination, timestamp, path/route (list)
-- ACK memuat: packet_id, sent_ts, ack_ts, route, hop_metrics(list of dict with rssi/delay/pdr optional)
-
-Yang direkam ke DB:
-- RSSI (diambil dari hop_metrics jika ada; fallback ke RSSI lokal)
-- PDR end-to-end berbasis window ACK/sent (window_pdr)
-- End-to-End delay (ms) berbasis ACK
-
-Catatan penting:
-- AODV forwarding multi-hop di lapangan bergantung implementasi ESP32 Anda.
-  Script ini melakukan route discovery (RREQ/RREP) dan akan mengirim DATA via next_hop jika ada.
-  Jika route tidak ditemukan, script akan fallback kirim langsung ke MAC destination jika MAC-nya diketahui.
-"""
-
 import json
 import socket
 import struct
