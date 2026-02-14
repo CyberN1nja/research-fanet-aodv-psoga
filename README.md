@@ -14,7 +14,7 @@ Mentor : Lisa Kristiana
   <tr>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/28a50ebe-3c78-4f10-b72a-b66c007d4549" width="280"/><br>
-      <em>1 Raspberry Pi 4 model B + 2 lithium battery 2000mAh + 1 16850 battery shields + 1 USB type-C cable</em>
+      <em>Raspberry Pi 4 model B + 2 lithium battery 2000mAh + 16850 battery shields + USB type-C cable</em>
     </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/537a22b5-c05e-4ab7-9949-edcf85df1694" width="280"/><br>
@@ -24,11 +24,11 @@ Mentor : Lisa Kristiana
   <tr>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/0931bdb1-6abf-4979-9933-c31ca65d4059" width="280"/><br>
-      <em>1 Router tp-link AC1200 acher C54</em>
+      <em>Router tp-link AC1200 acher C54</em>
     </td>
     <td align="center">
       <img src="https://github.com/user-attachments/assets/cce5aeb3-4b99-467f-8f58-b4637d2d7385" width="280"/><br>
-      <em>1 50m/165ft measuring wheel</em>
+      <em>50m/165ft measuring wheel</em>
     </td>
   </tr>
 </table>
