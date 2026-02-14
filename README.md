@@ -13,6 +13,9 @@ Mentor : Lisa Kristiana
 <table align="center">
   <tr>
     <td><img src="https://github.com/user-attachments/assets/28a50ebe-3c78-4f10-b72a-b66c007d4549" width="280"/></td>
+    <figcaption align="center">
+      Gambar 1. Topologi Simulasi FANET pada NS-3
+    </figcaption>
     <td><img src="https://github.com/user-attachments/assets/537a22b5-c05e-4ab7-9949-edcf85df1694" width="280"/></td>
   </tr>
   <tr>
