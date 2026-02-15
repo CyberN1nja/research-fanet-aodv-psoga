@@ -96,21 +96,21 @@ node_<nodeId>_data.xml
 
 - Attribute
 
-| Attribute | Tipe    | Deskripsi        |
-| --------- | ------- | ---------------- |
-| `round`   | Integer | Putaran optimasi |
+| Attribute | Type    | Description              |
+|-----------|---------|--------------------------|
+| `round`   | Integer | Optimization iteration   |
 
 -Field Explanation
 
-| Field           | Tipe    | Deskripsi                         |
-| --------------- | ------- | --------------------------------- |
-| `BestRoute`     | String  | Daftar node ID dalam rute terbaik |
-| `Fitness`       | Float   | Nilai fitness rute                |
-| `AvgRSSI`       | Float   | Rata-rata RSSI rute               |
-| `AvgLatency`    | Float   | Rata-rata latency                 |
-| `AvgPDR`        | Float   | Rata-rata PDR (%)                 |
-| `TotalDistance` | Float   | Total jarak rute (meter)          |
-| `Iterations`    | Integer | Jumlah iterasi PSO-GA             |
+| Field           | Type    | Description                                      |
+|-----------------|---------|--------------------------------------------------|
+| `BestRoute`     | String  | List of node IDs in the best route               |
+| `Fitness`       | Float   | Route fitness value                              |
+| `AvgRSSI`       | Float   | Average route RSSI                               |
+| `AvgLatency`    | Float   | Average latency                                  |
+| `AvgPDR`        | Float   | Average Packet Delivery Ratio (%)                |
+| `TotalDistance` | Float   | Total route distance (meters)                    |
+| `Iterations`    | Integer | Total number of PSO-GA iterations                |
 
 ## Node Performance Overview
 
@@ -125,15 +125,16 @@ node_<nodeId>_data.xml
 
 - Field Explanation
 
-| Field           | Tipe    | Deskripsi                       |
-| --------------- | ------- | ------------------------------- |
-| `TX_Packets`    | Integer | Total paket dikirim             |
-| `RX_Packets`    | Integer | Total paket diterima            |
-| `Delay_Seconds` | Float   | Rata-rata delay (detik)         |
-| `PDR_Percent`   | Float   | Packet Delivery Ratio total (%) |
+| Field           | Type    | Description                              |
+|-----------------|---------|------------------------------------------|
+| `TX_Packets`    | Integer | Total packets transmitted                |
+| `RX_Packets`    | Integer | Total packets received                   |
+| `Delay_Seconds` | Float   | Average delay (seconds)                  |
+| `PDR_Percent`   | Float   | Overall Packet Delivery Ratio (%)        |
 
 ## Hierarchical Schema
 
+```
 Node
  ├── Record*
  │     ├── Sender
@@ -163,7 +164,7 @@ Node
        ├── RX_Packets
        ├── Delay_Seconds
        └── PDR_Percent
-
+```
 
 
 
